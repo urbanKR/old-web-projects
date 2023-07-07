@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "TaskList",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "icon.jpg"
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "web_accessible_resources": [
+        {
+          "resources": ["index.js"],
+          "matches": ["<all_urls>"]
+        }
+      ]
+}

@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+}
+
+input {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    border-color: rgb(0, 147, 210);
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.base-btn {
+    border-color: rgb(0, 147, 210);
+    background-color: rgb(0, 147, 210);
+    font-weight: bolder;
+    margin-top: 5px;
+    border-radius: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+#clear-btn {
+    color: rgb(0, 147, 210);
+    border-color: rgb(0, 147, 210);
+    background-color: white;
+}
+
+.remove-btn {
+    display: inline-block;
+    margin-left: 3px;
+    color: white;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    border-color: rgb(0, 147, 210);
+    background-color: rgb(0, 147, 210);
+    font-weight: bolder;
+}
+
+button:hover {
+    cursor: pointer;
+}
